@@ -12,11 +12,11 @@ The collab notebook is written sequentially. Just run the blocks one by one. Som
 
 ## Structure of Code
 The code is divided into multiple selection. 
-- A. Dependencies & Data Loading (imoprt neccesary libraries and data)
-- B. Latent Vector creation (Image to Latent Vector by feature extration.)
-- C. Data Preprocessing(For images make training testing set by ImageDataGenerator. For latent vector split into train/test , standardized data and reduced dimentioned data.)
-- D. RF, MLP , KNN , SVM (Three Classification model. Each model has 3 set {1. Normal Data, 2. Standardized Data , 3. Feature selection})
-- E. CNN (A three layer CNN model for image classification)
+- Dependencies & Data Loading (import neccesary libraries and data).
+- Latent Vector creation (Image to Latent Vector by feature extraction).
+- Data Preprocessing (For images, make training testing set by ImageDataGenerator. For latent vector split into train/test, standardized data and reduced dimensioned data).
+- RF, MLP, KNN, SVM (Three Classification models. Each model has 3 set {1. Normal Data, 2. Standardized Data , 3. Feature selection}).
+- CNN (A three layer CNN model for image classification).
 <!--
 ## Demonstration
 [The video refrence to code.(Drive link)]()
